@@ -1,0 +1,93 @@
+body {font-family: 'font-family: 'Cinzel Decorative', cursive'; margin : 0px}
+
+
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+iframe {
+  max-width: 100%;
+  height: auto;
+}
+
+/* table */
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid white;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: black;
+}
+/* table */
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color:#ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+/* flex box */
+body {
+    background-color: black;
+  }
+
+  .footer {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    font-size: 20px;
+    padding: 15px;
+    width: 100%;
+    height: auto;}
+
+  /* Responsive layout - makes a one column-layout instead of a two-column layout */
+  @media only screen and (max-width: 700px) {
+
+    .flex-container {
+      flex-direction: column;}
+  
+    body {
+        background-color: black;
+      }
+    }

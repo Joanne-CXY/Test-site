@@ -1,0 +1,15 @@
+table {
+    font-family: 'font-family: 'Cinzel Decorative', cursive';
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #ffffff;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #000000;
+  }
